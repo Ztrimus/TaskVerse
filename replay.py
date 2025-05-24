@@ -21,7 +21,8 @@ keyboard = KeyboardController()
 
 
 def parse_key(key_str):
-    # Handle special keys
+    if key_str is None:
+        return None
     if key_str.startswith("Key."):
         try:
             return getattr(Key, key_str.split(".", 1)[1])
@@ -39,7 +40,6 @@ def replay_events(events_file):
     last_time = 0
     for event in events:
         t = event["timestamp"]
-        # Wait for the correct interval
         wait = t - last_time
         if wait > 0:
             time.sleep(wait)
@@ -62,15 +62,21 @@ def replay_events(events_file):
         elif etype == "mousescroll":
             dx, dy = int(data["dx"]), int(data["dy"])
             print(f"[REPLAY] Mouse scroll by ({dx}, {dy})")
-            mouse.scroll(dx, dy)
+            mouse.scroll(dx, dy)El
         elif etype == "keypress":
-            key = parse_key(data["key"])
-            print(f"[REPLAY] Key press: {key}")
-            keyboard.press(key)
+            key = parse_key(data.get("key"))
+            if key is not None:
+                print(f"[REPLAY] Key press: {key}")
+                keyboard.press(key)
+            else:
+                print(f"[REPLAY] Skipping keypress with None key: {data}")
         elif etype == "keyrelease":
-            key = parse_key(data["key"])
-            print(f"[REPLAY] Key release: {key}")
-            keyboard.release(key)
+            key = parse_key(data.get("key"))
+            if key is not None:
+                print(f"[REPLAY] Key release: {key}")
+                keyboard.release(key)
+            else:
+                print(f"[REPLAY] Skipping keyrelease with None key: {data}")
         else:
             print(f"[REPLAY] Unknown event type: {etype}")
 

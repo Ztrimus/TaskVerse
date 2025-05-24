@@ -1,245 +1,143 @@
-{"type": "mousemove", "data": {"x": 1523.734375, "y": 266.453125}, "app": "Electron", "timestamp": 0.5771329402923584}
-{"type": "mousemove", "data": {"x": 1523.3515625, "y": 266.453125}, "app": "Electron", "timestamp": 0.7425539493560791}
-{"type": "mousemove", "data": {"x": 1522.96875, "y": 266.0703125}, "app": "Electron", "timestamp": 0.9197530746459961}
-{"type": "mousemove", "data": {"x": 1522.44140625, "y": 265.015625}, "app": "Electron", "timestamp": 1.1057898998260498}
-{"type": "mousemove", "data": {"x": 1521.38671875, "y": 264.48828125}, "app": "Electron", "timestamp": 1.2834031581878662}
-{"type": "mousemove", "data": {"x": 1520.71484375, "y": 262.4765625}, "app": "Electron", "timestamp": 1.4575691223144531}
-{"type": "mousemove", "data": {"x": 1518.703125, "y": 261.1328125}, "app": "Electron", "timestamp": 1.6261060237884521}
-{"type": "mousemove", "data": {"x": 1516.25390625, "y": 258.68359375}, "app": "Electron", "timestamp": 1.7870080471038818}
-{"type": "mousemove", "data": {"x": 1515.19921875, "y": 257.62890625}, "app": "Electron", "timestamp": 1.9549450874328613}
-{"type": "mousemove", "data": {"x": 1511.3515625, "y": 254.7421875}, "app": "Electron", "timestamp": 2.125493049621582}
-{"type": "mousemove", "data": {"x": 1509.33984375, "y": 253.3984375}, "app": "Electron", "timestamp": 2.2941341400146484}
-{"type": "mousemove", "data": {"x": 1504.53125, "y": 251.47265625}, "app": "Electron", "timestamp": 2.467478036880493}
-{"type": "mousemove", "data": {"x": 1500.68359375, "y": 248.5859375}, "app": "Electron", "timestamp": 2.644819974899292}
-{"type": "mousemove", "data": {"x": 1497.421875, "y": 246.953125}, "app": "Electron", "timestamp": 2.8116848468780518}
-{"type": "mousemove", "data": {"x": 1488.62890625, "y": 243.18359375}, "app": "Electron", "timestamp": 2.9577929973602295}
-{"type": "mousemove", "data": {"x": 1486.6171875, "y": 242.51171875}, "app": "Electron", "timestamp": 3.1328399181365967}
-{"type": "mousemove", "data": {"x": 1477.82421875, "y": 240.0}, "app": "Electron", "timestamp": 3.321089029312134}
-{"type": "mousemove", "data": {"x": 1474.5625, "y": 239.18359375}, "app": "Electron", "timestamp": 3.5149359703063965}
-{"type": "mousemove", "data": {"x": 1465.76953125, "y": 237.92578125}, "app": "Electron", "timestamp": 3.707533121109009}
-{"type": "mousemove", "data": {"x": 1456.9765625, "y": 236.66796875}, "app": "Electron", "timestamp": 3.948115110397339}
-{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Electron", "timestamp": 3.9759387969970703}
-{"type": "mousemove", "data": {"x": 1448.18359375, "y": 235.41015625}, "app": "Electron", "timestamp": 4.138056039810181}
-{"type": "keypress", "data": {"key": "Key.tab"}, "app": "Electron", "timestamp": 4.164111852645874}
-{"type": "mousemove", "data": {"x": 1439.390625, "y": 234.15234375}, "app": "Electron", "timestamp": 4.267393112182617}
-{"type": "keyrelease", "data": {"key": "Key.tab"}, "app": "Electron", "timestamp": 4.290666103363037}
-{"type": "mousemove", "data": {"x": 1422.34765625, "y": 232.4453125}, "app": "Electron", "timestamp": 4.411525011062622}
-{"type": "mousemove", "data": {"x": 1411.11328125, "y": 231.0390625}, "app": "Electron", "timestamp": 4.584587097167969}
-{"type": "mousemove", "data": {"x": 1404.46484375, "y": 231.0390625}, "app": "Electron", "timestamp": 4.772861003875732}
-{"type": "mousemove", "data": {"x": 1393.23046875, "y": 231.0390625}, "app": "Brave Browser", "timestamp": 5.011553049087524}
-{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 5.038264989852905}
-{"type": "mousemove", "data": {"x": 1386.58203125, "y": 231.0390625}, "app": "Brave Browser", "timestamp": 5.194692850112915}
-{"type": "keyrelease", "data": {"key": null}, "app": "Brave Browser", "timestamp": 5.219738006591797}
-{"type": "mousemove", "data": {"x": 1377.7890625, "y": 231.0390625}, "app": "Brave Browser", "timestamp": 5.338167190551758}
-{"type": "mousemove", "data": {"x": 1374.52734375, "y": 231.0390625}, "app": "Brave Browser", "timestamp": 5.465914011001587}
-{"type": "mousemove", "data": {"x": 1363.29296875, "y": 231.0390625}, "app": "Brave Browser", "timestamp": 5.626615047454834}
-{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 5.680538892745972}
-{"type": "mousemove", "data": {"x": 1356.64453125, "y": 232.14453125}, "app": "Brave Browser", "timestamp": 5.766236066818237}
-{"type": "mousemove", "data": {"x": 1349.99609375, "y": 232.14453125}, "app": "Brave Browser", "timestamp": 5.937391996383667}
-{"type": "keypress", "data": {"key": "t"}, "app": "Brave Browser", "timestamp": 6.040740013122559}
-{"type": "mousemove", "data": {"x": 1345.1875, "y": 232.14453125}, "app": "Brave Browser", "timestamp": 6.112315893173218}
-{"type": "keyrelease", "data": {"key": "t"}, "app": "Brave Browser", "timestamp": 6.208558797836304}
-{"type": "mousemove", "data": {"x": 1340.37890625, "y": 233.10546875}, "app": "Brave Browser", "timestamp": 6.252238988876343}
-{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 6.358657121658325}
-{"type": "mousemove", "data": {"x": 1335.5703125, "y": 233.10546875}, "app": "Brave Browser", "timestamp": 6.385895013809204}
-{"type": "keypress", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 6.529104948043823}
-{"type": "mousemove", "data": {"x": 1332.30859375, "y": 233.10546875}, "app": "Brave Browser", "timestamp": 6.551455020904541}
-{"type": "keyrelease", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 6.715015888214111}
-{"type": "mousemove", "data": {"x": 1327.5, "y": 234.06640625}, "app": "Brave Browser", "timestamp": 6.73514986038208}
-{"type": "keypress", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 6.868450164794922}
-{"type": "mousemove", "data": {"x": 1320.8515625, "y": 234.06640625}, "app": "Brave Browser", "timestamp": 6.888346910476685}
-{"type": "mousemove", "data": {"x": 1316.04296875, "y": 235.02734375}, "app": "Brave Browser", "timestamp": 7.0631208419799805}
-{"type": "keyrelease", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 7.083430051803589}
-{"type": "keypress", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 7.288538932800293}
-{"type": "mousemove", "data": {"x": 1311.234375, "y": 235.98828125}, "app": "Brave Browser", "timestamp": 7.314435958862305}
-{"type": "mousemove", "data": {"x": 1304.5859375, "y": 237.09375}, "app": "Brave Browser", "timestamp": 7.478040933609009}
-{"type": "keypress", "data": {"key": "k"}, "app": "Brave Browser", "timestamp": 7.518308877944946}
-{"type": "mousemove", "data": {"x": 1287.54296875, "y": 242.203125}, "app": "Brave Browser", "timestamp": 7.64399790763855}
-{"type": "keyrelease", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 7.672766923904419}
-{"type": "mousemove", "data": {"x": 1273.55859375, "y": 248.4140625}, "app": "Brave Browser", "timestamp": 7.822757005691528}
-{"type": "keyrelease", "data": {"key": "k"}, "app": "Brave Browser", "timestamp": 7.845617055892944}
-{"type": "keypress", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 8.050660848617554}
-{"type": "mousemove", "data": {"x": 1271.546875, "y": 249.08203125}, "app": "Brave Browser", "timestamp": 8.080540895462036}
-{"type": "keyrelease", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 8.243216037750244}
-{"type": "mousemove", "data": {"x": 1268.28515625, "y": 250.7109375}, "app": "Brave Browser", "timestamp": 8.26916790008545}
-{"type": "mousemove", "data": {"x": 1264.4375, "y": 253.59375}, "app": "Brave Browser", "timestamp": 8.40974497795105}
-{"type": "mousemove", "data": {"x": 1256.90234375, "y": 258.61328125}, "app": "Brave Browser", "timestamp": 8.588791131973267}
-{"type": "mousemove", "data": {"x": 1251.359375, "y": 263.04296875}, "app": "Brave Browser", "timestamp": 8.780200004577637}
-{"type": "mousemove", "data": {"x": 1243.82421875, "y": 269.3203125}, "app": "Brave Browser", "timestamp": 8.9477059841156}
-{"type": "mousemove", "data": {"x": 1236.2890625, "y": 275.59765625}, "app": "Brave Browser", "timestamp": 9.118658781051636}
-{"type": "mousemove", "data": {"x": 1225.41015625, "y": 284.91796875}, "app": "Brave Browser", "timestamp": 9.29167103767395}
-{"type": "mousemove", "data": {"x": 1221.5625, "y": 288.76171875}, "app": "Brave Browser", "timestamp": 9.475774049758911}
-{"type": "mousemove", "data": {"x": 1210.68359375, "y": 298.08203125}, "app": "Brave Browser", "timestamp": 9.689209938049316}
-{"type": "mousemove", "data": {"x": 1197.05078125, "y": 310.0078125}, "app": "Brave Browser", "timestamp": 9.91537594795227}
-{"type": "mousemove", "data": {"x": 1188.625, "y": 318.4296875}, "app": "Brave Browser", "timestamp": 10.141388177871704}
-{"type": "mousemove", "data": {"x": 1182.34375, "y": 324.70703125}, "app": "Brave Browser", "timestamp": 10.323925971984863}
-{"type": "mousemove", "data": {"x": 1176.0625, "y": 332.23828125}, "app": "Brave Browser", "timestamp": 10.484100818634033}
-{"type": "mousemove", "data": {"x": 1171.62890625, "y": 337.77734375}, "app": "Brave Browser", "timestamp": 10.65096402168274}
-{"type": "mousemove", "data": {"x": 1166.60546875, "y": 345.30859375}, "app": "Brave Browser", "timestamp": 10.819262981414795}
-{"type": "mousemove", "data": {"x": 1165.26171875, "y": 347.31640625}, "app": "Brave Browser", "timestamp": 10.970091104507446}
-{"type": "mousemove", "data": {"x": 1161.9375, "y": 353.9609375}, "app": "Brave Browser", "timestamp": 11.131990194320679}
-{"type": "keypress", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 11.361587047576904}
-{"type": "mousemove", "data": {"x": 1160.01171875, "y": 358.765625}, "app": "Brave Browser", "timestamp": 11.390966176986694}
-{"type": "keypress", "data": {"key": "S"}, "app": "Brave Browser", "timestamp": 11.588531017303467}
-{"type": "mousemove", "data": {"x": 1156.90234375, "y": 372.74609375}, "app": "Brave Browser", "timestamp": 11.616760969161987}
-{"type": "keyrelease", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 11.774224996566772}
-{"type": "mousemove", "data": {"x": 1154.68359375, "y": 379.390625}, "app": "Brave Browser", "timestamp": 11.797444820404053}
-{"type": "keyrelease", "data": {"key": "s"}, "app": "Brave Browser", "timestamp": 11.993590116500854}
-{"type": "mousemove", "data": {"x": 1151.57421875, "y": 393.37109375}, "app": "Brave Browser", "timestamp": 12.018657207489014}
-{"type": "mousemove", "data": {"x": 1150.46484375, "y": 400.015625}, "app": "Brave Browser", "timestamp": 12.232261896133423}
-{"type": "keypress", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 12.253144979476929}
-{"type": "keyrelease", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 12.449429988861084}
-{"type": "mousemove", "data": {"x": 1145.52734375, "y": 437.03515625}, "app": "Brave Browser", "timestamp": 12.47008490562439}
-{"type": "mousemove", "data": {"x": 1143.30859375, "y": 443.6796875}, "app": "Brave Browser", "timestamp": 12.627323865890503}
-{"type": "keypress", "data": {"key": "u"}, "app": "Brave Browser", "timestamp": 12.647799968719482}
-{"type": "mousemove", "data": {"x": 1139.59765625, "y": 464.08203125}, "app": "Brave Browser", "timestamp": 12.865193128585815}
-{"type": "keypress", "data": {"key": "r"}, "app": "Brave Browser", "timestamp": 12.887151002883911}
-{"type": "mousemove", "data": {"x": 1129.72265625, "y": 501.1015625}, "app": "Brave Browser", "timestamp": 13.088541984558105}
-{"type": "keyrelease", "data": {"key": "u"}, "app": "Brave Browser", "timestamp": 13.114732027053833}
-{"type": "keyrelease", "data": {"key": "r"}, "app": "Brave Browser", "timestamp": 13.279810190200806}
-{"type": "mousemove", "data": {"x": 1124.15625, "y": 521.50390625}, "app": "Brave Browser", "timestamp": 13.30595588684082}
-{"type": "mousemove", "data": {"x": 1075.453125, "y": 687.5625}, "app": "Brave Browser", "timestamp": 13.478317975997925}
-{"type": "keypress", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 13.499279975891113}
-{"type": "mousemove", "data": {"x": 1073.234375, "y": 694.20703125}, "app": "Brave Browser", "timestamp": 13.64770793914795}
-{"type": "keypress", "data": {"key": "b"}, "app": "Brave Browser", "timestamp": 13.67094898223877}
-{"type": "mousemove", "data": {"x": 1065.8125, "y": 714.609375}, "app": "Brave Browser", "timestamp": 13.839221000671387}
-{"type": "keyrelease", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 13.86508297920227}
-{"type": "keypress", "data": {"key": "h"}, "app": "Brave Browser", "timestamp": 14.058146953582764}
-{"type": "mousemove", "data": {"x": 1062.1015625, "y": 735.01171875}, "app": "Brave Browser", "timestamp": 14.085499048233032}
-{"type": "keyrelease", "data": {"key": "b"}, "app": "Brave Browser", "timestamp": 14.246214866638184}
-{"type": "mousemove", "data": {"x": 1060.546875, "y": 748.9921875}, "app": "Brave Browser", "timestamp": 14.271419048309326}
-{"type": "mousemove", "data": {"x": 1057.13671875, "y": 766.03125}, "app": "Brave Browser", "timestamp": 14.429075002670288}
-{"type": "keypress", "data": {"key": "Key.space"}, "app": "Brave Browser", "timestamp": 14.453189849853516}
-{"type": "keyrelease", "data": {"key": "h"}, "app": "Brave Browser", "timestamp": 14.645222902297974}
-{"type": "mousemove", "data": {"x": 1057.13671875, "y": 774.8203125}, "app": "Brave Browser", "timestamp": 14.666179895401001}
-{"type": "mousemove", "data": {"x": 1057.13671875, "y": 788.80078125}, "app": "Brave Browser", "timestamp": 14.849117040634155}
-{"type": "keypress", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 14.871432065963745}
-{"type": "keyrelease", "data": {"key": "Key.space"}, "app": "Brave Browser", "timestamp": 15.07098388671875}
-{"type": "mousemove", "data": {"x": 1057.13671875, "y": 812.8828125}, "app": "Brave Browser", "timestamp": 15.092436075210571}
-{"type": "keypress", "data": {"key": "Z"}, "app": "Brave Browser", "timestamp": 15.246093988418579}
-{"type": "mousemove", "data": {"x": 1055.58203125, "y": 826.86328125}, "app": "Brave Browser", "timestamp": 15.267670154571533}
-{"type": "mousemove", "data": {"x": 1055.58203125, "y": 835.65234375}, "app": "Brave Browser", "timestamp": 15.43089485168457}
-{"type": "keypress", "data": {"key": "I"}, "app": "Brave Browser", "timestamp": 15.452875137329102}
-{"type": "keyrelease", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 15.650644063949585}
-{"type": "mousemove", "data": {"x": 1055.58203125, "y": 849.6328125}, "app": "Brave Browser", "timestamp": 15.671865940093994}
-{"type": "mousemove", "data": {"x": 1055.58203125, "y": 873.71484375}, "app": "Brave Browser", "timestamp": 15.858517169952393}
-{"type": "keyrelease", "data": {"key": "z"}, "app": "Brave Browser", "timestamp": 15.878684043884277}
-{"type": "mousemove", "data": {"x": 1057.1328125, "y": 887.6953125}, "app": "Brave Browser", "timestamp": 15.990055084228516}
-{"type": "keypress", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 16.01272702217102}
-{"type": "keyrelease", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 16.1611909866333}
-{"type": "mousemove", "data": {"x": 1062.2421875, "y": 904.734375}, "app": "Brave Browser", "timestamp": 16.184333086013794}
-{"type": "mousemove", "data": {"x": 1066.0078125, "y": 913.5234375}, "app": "Brave Browser", "timestamp": 16.351927757263184}
-{"type": "keypress", "data": {"key": "j"}, "app": "Brave Browser", "timestamp": 16.377398014068604}
-{"type": "keypress", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 16.589350938796997}
-{"type": "mousemove", "data": {"x": 1075.28125, "y": 932.0703125}, "app": "Brave Browser", "timestamp": 16.616814851760864}
-{"type": "keyrelease", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 16.808812141418457}
-{"type": "mousemove", "data": {"x": 1079.046875, "y": 940.859375}, "app": "Brave Browser", "timestamp": 16.830256938934326}
-{"type": "keyrelease", "data": {"key": "j"}, "app": "Brave Browser", "timestamp": 17.03299593925476}
-{"type": "mousemove", "data": {"x": 1084.66015625, "y": 950.6875}, "app": "Brave Browser", "timestamp": 17.0564968585968}
-{"type": "keypress", "data": {"key": "d"}, "app": "Brave Browser", "timestamp": 17.247299909591675}
-{"type": "mousemove", "data": {"x": 1092.42578125, "y": 963.11328125}, "app": "Brave Browser", "timestamp": 17.268178939819336}
-{"type": "mousemove", "data": {"x": 1095.30859375, "y": 966.95703125}, "app": "Brave Browser", "timestamp": 17.4656400680542}
-{"type": "keyrelease", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 17.4927179813385}
-{"type": "keyrelease", "data": {"key": "d"}, "app": "Brave Browser", "timestamp": 17.67842197418213}
-{"type": "mousemove", "data": {"x": 1100.921875, "y": 976.78515625}, "app": "Brave Browser", "timestamp": 17.698912143707275}
-{"type": "mousemove", "data": {"x": 1102.55078125, "y": 980.04296875}, "app": "Brave Browser", "timestamp": 17.86334490776062}
-{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 17.88670015335083}
-{"type": "mousemove", "data": {"x": 1104.55859375, "y": 981.3828125}, "app": "Brave Browser", "timestamp": 18.038266897201538}
-{"type": "keypress", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 18.06002378463745}
-{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 18.216464042663574}
-{"type": "mousemove", "data": {"x": 1105.08203125, "y": 982.43359375}, "app": "Brave Browser", "timestamp": 18.241897106170654}
-{"type": "mousemove", "data": {"x": 1107.96484375, "y": 986.27734375}, "app": "Brave Browser", "timestamp": 18.442950010299683}
-{"type": "keyrelease", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 18.463043928146362}
-{"type": "mousemove", "data": {"x": 1110.41015625, "y": 988.72265625}, "app": "Brave Browser", "timestamp": 18.648008108139038}
-{"type": "keypress", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 18.67003297805786}
-{"type": "mousemove", "data": {"x": 1115.94921875, "y": 993.15234375}, "app": "Brave Browser", "timestamp": 18.86932682991028}
-{"type": "keyrelease", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 18.89157509803772}
-{"type": "keypress", "data": {"key": "e"}, "app": "Brave Browser", "timestamp": 19.110090017318726}
-{"type": "mousemove", "data": {"x": 1123.48046875, "y": 999.4296875}, "app": "Brave Browser", "timestamp": 19.135504961013794}
-{"type": "keyrelease", "data": {"key": "e"}, "app": "Brave Browser", "timestamp": 19.289100170135498}
-{"type": "mousemove", "data": {"x": 1133.30859375, "y": 1006.44921875}, "app": "Brave Browser", "timestamp": 19.31062602996826}
-{"type": "mousemove", "data": {"x": 1134.359375, "y": 1007.5}, "app": "Brave Browser", "timestamp": 19.51401710510254}
-{"type": "keypress", "data": {"key": "t"}, "app": "Brave Browser", "timestamp": 19.540608167648315}
-{"type": "mousemove", "data": {"x": 1144.1875, "y": 1014.51953125}, "app": "Brave Browser", "timestamp": 19.733917951583862}
-{"type": "keyrelease", "data": {"key": "t"}, "app": "Brave Browser", "timestamp": 19.753591775894165}
-{"type": "keypress", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 19.91143298149109}
-{"type": "mousemove", "data": {"x": 1148.03125, "y": 1018.36328125}, "app": "Brave Browser", "timestamp": 19.93406915664673}
-{"type": "mousemove", "data": {"x": 1150.4765625, "y": 1020.80859375}, "app": "Brave Browser", "timestamp": 20.138712882995605}
-{"type": "keyrelease", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 20.16642117500305}
-{"type": "mousemove", "data": {"x": 1154.3203125, "y": 1023.69140625}, "app": "Brave Browser", "timestamp": 20.37060308456421}
-{"type": "keypress", "data": {"key": "f"}, "app": "Brave Browser", "timestamp": 20.394407033920288}
-{"type": "keypress", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 20.557228803634644}
-{"type": "mousemove", "data": {"x": 1161.8515625, "y": 1029.96875}, "app": "Brave Browser", "timestamp": 20.579840183258057}
-{"type": "mousemove", "data": {"x": 1168.12890625, "y": 1036.24609375}, "app": "Brave Browser", "timestamp": 20.779231071472168}
-{"type": "keyrelease", "data": {"key": "f"}, "app": "Brave Browser", "timestamp": 20.807352781295776}
-{"type": "mousemove", "data": {"x": 1174.40625, "y": 1042.5234375}, "app": "Brave Browser", "timestamp": 20.96493697166443}
-{"type": "keyrelease", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 20.98817491531372}
-{"type": "keypress", "data": {"key": "c"}, "app": "Brave Browser", "timestamp": 21.16142702102661}
-{"type": "mousemove", "data": {"x": 1179.9453125, "y": 1046.953125}, "app": "Brave Browser", "timestamp": 21.182270050048828}
-{"type": "mousemove", "data": {"x": 1187.4765625, "y": 1053.23046875}, "app": "Brave Browser", "timestamp": 21.351126194000244}
-{"type": "keyrelease", "data": {"key": "c"}, "app": "Brave Browser", "timestamp": 21.37727403640747}
-{"type": "mousemove", "data": {"x": 1198.3515625, "y": 1062.55078125}, "app": "Brave Browser", "timestamp": 21.58949089050293}
-{"type": "keypress", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 21.614020824432373}
-{"type": "keypress", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 21.816928148269653}
-{"type": "mousemove", "data": {"x": 1216.4140625, "y": 1078.60546875}, "app": "Brave Browser", "timestamp": 21.838285207748413}
-{"type": "keyrelease", "data": {"key": "a"}, "app": "Brave Browser", "timestamp": 22.04546093940735}
-{"type": "mousemove", "data": {"x": 1227.2890625, "y": 1087.92578125}, "app": "Brave Browser", "timestamp": 22.07273292541504}
-{"type": "mousemove", "data": {"x": 1240.91796875, "y": 1099.8515625}, "app": "Brave Browser", "timestamp": 22.26089310646057}
-{"type": "keyrelease", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 22.281813144683838}
-{"type": "keyrelease", "data": {"key": null}, "app": "Brave Browser", "timestamp": 22.475437879562378}
-{"type": "mousemove", "data": {"x": 1248.44921875, "y": 1106.12890625}, "app": "Brave Browser", "timestamp": 22.502228021621704}
-{"type": "mousemove", "data": {"x": 1263.2890625, "y": 1120.96875}, "app": "Brave Browser", "timestamp": 22.663127183914185}
-{"type": "keypress", "data": {"key": "j"}, "app": "Brave Browser", "timestamp": 22.790465116500854}
-{"type": "mousemove", "data": {"x": 1278.62109375, "y": 1131.19140625}, "app": "Brave Browser", "timestamp": 22.812291860580444}
-{"type": "keypress", "data": {"key": "o"}, "app": "Brave Browser", "timestamp": 22.97113299369812}
-{"type": "mousemove", "data": {"x": 1289.49609375, "y": 1140.51171875}, "app": "Brave Browser", "timestamp": 22.9964120388031}
-{"type": "mousemove", "data": {"x": 1295.03515625, "y": 1144.94140625}, "app": "Brave Browser", "timestamp": 23.19219207763672}
-{"type": "keyrelease", "data": {"key": "j"}, "app": "Brave Browser", "timestamp": 23.219630002975464}
-{"type": "keyrelease", "data": {"key": "o"}, "app": "Brave Browser", "timestamp": 23.38972306251526}
-{"type": "mousemove", "data": {"x": 1302.56640625, "y": 1149.9609375}, "app": "Brave Browser", "timestamp": 23.414970874786377}
-{"type": "keypress", "data": {"key": "b"}, "app": "Brave Browser", "timestamp": 23.613036155700684}
-{"type": "mousemove", "data": {"x": 1317.8984375, "y": 1160.18359375}, "app": "Brave Browser", "timestamp": 23.634608030319214}
-{"type": "keyrelease", "data": {"key": "b"}, "app": "Brave Browser", "timestamp": 23.81782293319702}
-{"type": "mousemove", "data": {"x": 1327.7265625, "y": 1165.796875}, "app": "Brave Browser", "timestamp": 23.84193706512451}
-{"type": "keypress", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 24.000737190246582}
-{"type": "mousemove", "data": {"x": 1332.53125, "y": 1168.6796875}, "app": "Brave Browser", "timestamp": 24.026521921157837}
-{"type": "mousemove", "data": {"x": 1339.17578125, "y": 1172.0}, "app": "Brave Browser", "timestamp": 24.229809999465942}
-{"type": "keyrelease", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 24.257763862609863}
-{"type": "mousemove", "data": {"x": 1343.98046875, "y": 1174.8828125}, "app": "Brave Browser", "timestamp": 24.399388074874878}
-{"type": "mousemove", "data": {"x": 1357.9609375, "y": 1179.54296875}, "app": "Brave Browser", "timestamp": 24.588988065719604}
-{"type": "mousemove", "data": {"x": 1359.96875, "y": 1180.2109375}, "app": "Brave Browser", "timestamp": 24.76718020439148}
-{"type": "mousemove", "data": {"x": 1368.7578125, "y": 1180.2109375}, "app": "Brave Browser", "timestamp": 24.92206382751465}
-{"type": "mousemove", "data": {"x": 1372.015625, "y": 1181.0234375}, "app": "Brave Browser", "timestamp": 25.098486185073853}
-{"type": "mousemove", "data": {"x": 1375.2734375, "y": 1181.0234375}, "app": "Brave Browser", "timestamp": 25.280404090881348}
-{"type": "mousemove", "data": {"x": 1378.53125, "y": 1181.0234375}, "app": "Brave Browser", "timestamp": 25.454725980758667}
-{"type": "mousemove", "data": {"x": 1381.7890625, "y": 1181.0234375}, "app": "Brave Browser", "timestamp": 25.622796058654785}
-{"type": "mousemove", "data": {"x": 1385.046875, "y": 1181.0234375}, "app": "Brave Browser", "timestamp": 25.79877209663391}
-{"type": "mousemove", "data": {"x": 1388.3046875, "y": 1180.20703125}, "app": "Brave Browser", "timestamp": 25.96286916732788}
-{"type": "mousemove", "data": {"x": 1391.5625, "y": 1179.390625}, "app": "Brave Browser", "timestamp": 26.10540199279785}
-{"type": "mousemove", "data": {"x": 1398.20703125, "y": 1177.171875}, "app": "Brave Browser", "timestamp": 26.27997589111328}
-{"type": "mousemove", "data": {"x": 1404.8515625, "y": 1176.0625}, "app": "Brave Browser", "timestamp": 26.464853048324585}
-{"type": "mousemove", "data": {"x": 1437.2421875, "y": 1166.8046875}, "app": "Brave Browser", "timestamp": 26.648571014404297}
-{"type": "mousemove", "data": {"x": 1443.88671875, "y": 1164.5859375}, "app": "Brave Browser", "timestamp": 26.815253019332886}
-{"type": "mousemove", "data": {"x": 1457.8671875, "y": 1159.921875}, "app": "Brave Browser", "timestamp": 26.992823123931885}
-{"type": "mousemove", "data": {"x": 1474.90625, "y": 1153.10546875}, "app": "Brave Browser", "timestamp": 27.167212963104248}
-{"type": "mousemove", "data": {"x": 1491.9453125, "y": 1146.2890625}, "app": "Brave Browser", "timestamp": 27.31112790107727}
-{"type": "mousemove", "data": {"x": 1508.984375, "y": 1139.47265625}, "app": "Brave Browser", "timestamp": 27.53821611404419}
-{"type": "mousemove", "data": {"x": 1527.53125, "y": 1128.33984375}, "app": "Brave Browser", "timestamp": 27.71922206878662}
-{"type": "mousemove", "data": {"x": 1542.86328125, "y": 1119.81640625}, "app": "Brave Browser", "timestamp": 27.91222310066223}
-{"type": "mousemove", "data": {"x": 1552.69140625, "y": 1112.79296875}, "app": "Brave Browser", "timestamp": 28.101948976516724}
-{"type": "mousemove", "data": {"x": 1572.76171875, "y": 1098.7421875}, "app": "Brave Browser", "timestamp": 28.275665998458862}
-{"type": "mousemove", "data": {"x": 1583.63671875, "y": 1089.41796875}, "app": "Brave Browser", "timestamp": 28.447386980056763}
-{"type": "mousemove", "data": {"x": 1593.46484375, "y": 1082.39453125}, "app": "Brave Browser", "timestamp": 28.61257290840149}
-{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Electron", "timestamp": 28.850203037261963}
-{"type": "mousemove", "data": {"x": 1600.99609375, "y": 1077.37109375}, "app": "Electron", "timestamp": 28.87205410003662}
-{"type": "keypress", "data": {"key": "Key.tab"}, "app": "Electron", "timestamp": 29.022369146347046}
-{"type": "mousemove", "data": {"x": 1613.421875, "y": 1069.6015625}, "app": "Electron", "timestamp": 29.045687913894653}
-{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Electron", "timestamp": 29.18095898628235}
-{"type": "mousemove", "data": {"x": 1631.96875, "y": 1060.32421875}, "app": "Electron", "timestamp": 29.20388412475586}
-{"type": "keyrelease", "data": {"key": "Key.tab"}, "app": "Electron", "timestamp": 29.362791061401367}
-{"type": "mousemove", "data": {"x": 1650.515625, "y": 1051.046875}, "app": "Electron", "timestamp": 29.384339094161987}
-{"type": "mousemove", "data": {"x": 1661.74609375, "y": 1045.4296875}, "app": "Electron", "timestamp": 29.54992914199829}
-{"type": "mousemove", "data": {"x": 1668.390625, "y": 1042.10546875}, "app": "Electron", "timestamp": 29.719533920288086}
-{"type": "mousemove", "data": {"x": 1698.46484375, "y": 1028.22265625}, "app": "Electron", "timestamp": 29.864546060562134}
-{"type": "keypress", "data": {"key": "Key.esc"}, "app": "Electron", "timestamp": 30.100303888320923}
-{"type": "mousemove", "data": {"x": 1715.50390625, "y": 1021.40625}, "app": "Electron", "timestamp": 30.127949953079224}
+{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Electron", "timestamp": 0.7837953567504883}
+{"type": "keypress", "data": {"key": "Key.tab"}, "app": "Electron", "timestamp": 0.9832231998443604}
+{"type": "keyrelease", "data": {"key": "Key.tab"}, "app": "Electron", "timestamp": 1.1701622009277344}
+{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 2.4503133296966553}
+{"type": "keyrelease", "data": {"key": null}, "app": "Brave Browser", "timestamp": 2.697404146194458}
+{"type": "mousemove", "data": {"x": 1663.70703125, "y": 92.33203125}, "app": "Brave Browser", "timestamp": 3.0028281211853027}
+{"type": "mousemove", "data": {"x": 1671.125, "y": 112.734375}, "app": "Brave Browser", "timestamp": 3.1671643257141113}
+{"type": "mousemove", "data": {"x": 1677.3359375, "y": 126.71484375}, "app": "Brave Browser", "timestamp": 3.352393388748169}
+{"type": "mousemove", "data": {"x": 1683.546875, "y": 140.6953125}, "app": "Brave Browser", "timestamp": 3.547020196914673}
+{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 3.808840274810791}
+{"type": "mousemove", "data": {"x": 1696.50390625, "y": 166.61328125}, "app": "Brave Browser", "timestamp": 3.837015151977539}
+{"type": "keypress", "data": {"key": "t"}, "app": "Brave Browser", "timestamp": 4.092588186264038}
+{"type": "mousemove", "data": {"x": 1702.71484375, "y": 180.59375}, "app": "Brave Browser", "timestamp": 4.222815990447998}
+{"type": "keyrelease", "data": {"key": "t"}, "app": "Brave Browser", "timestamp": 4.416776180267334}
+{"type": "mousemove", "data": {"x": 1704.34375, "y": 183.8515625}, "app": "Brave Browser", "timestamp": 4.442604064941406}
+{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 4.580357313156128}
+{"type": "mousemove", "data": {"x": 1711.15625, "y": 200.890625}, "app": "Brave Browser", "timestamp": 4.60204005241394}
+{"type": "mousemove", "data": {"x": 1720.4296875, "y": 219.4375}, "app": "Brave Browser", "timestamp": 4.748906373977661}
+{"type": "keypress", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 4.770986318588257}
+{"type": "mousemove", "data": {"x": 1723.3125, "y": 223.28125}, "app": "Brave Browser", "timestamp": 4.955007314682007}
+{"type": "keyrelease", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 4.977185010910034}
+{"type": "mousemove", "data": {"x": 1740.58984375, "y": 247.0390625}, "app": "Brave Browser", "timestamp": 5.188525199890137}
+{"type": "keypress", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 5.216951131820679}
+{"type": "keyrelease", "data": {"key": "i"}, "app": "Brave Browser", "timestamp": 5.420112133026123}
+{"type": "mousemove", "data": {"x": 1752.515625, "y": 260.66796875}, "app": "Brave Browser", "timestamp": 5.4481611251831055}
+{"type": "mousemove", "data": {"x": 1760.9375, "y": 269.08984375}, "app": "Brave Browser", "timestamp": 5.651100158691406}
+{"type": "keypress", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 5.675685167312622}
+{"type": "keypress", "data": {"key": "k"}, "app": "Brave Browser", "timestamp": 5.84435510635376}
+{"type": "mousemove", "data": {"x": 1774.56640625, "y": 281.015625}, "app": "Brave Browser", "timestamp": 5.8741230964660645}
+{"type": "keyrelease", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 6.138227224349976}
+{"type": "mousemove", "data": {"x": 1798.32421875, "y": 298.29296875}, "app": "Brave Browser", "timestamp": 6.202422142028809}
+{"type": "keyrelease", "data": {"key": "k"}, "app": "Brave Browser", "timestamp": 6.369392156600952}
+{"type": "mousemove", "data": {"x": 1813.65625, "y": 308.515625}, "app": "Brave Browser", "timestamp": 6.391684055328369}
+{"type": "mousemove", "data": {"x": 1821.1875, "y": 313.53515625}, "app": "Brave Browser", "timestamp": 6.555174112319946}
+{"type": "keypress", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 6.582367420196533}
+{"type": "keyrelease", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 6.7534730434417725}
+{"type": "mousemove", "data": {"x": 1847.10546875, "y": 328.65234375}, "app": "Brave Browser", "timestamp": 6.783522129058838}
+{"type": "mousemove", "data": {"x": 1855.89453125, "y": 332.41796875}, "app": "Brave Browser", "timestamp": 6.968202114105225}
+{"type": "mousemove", "data": {"x": 1871.2265625, "y": 340.9375}, "app": "Brave Browser", "timestamp": 7.158389091491699}
+{"type": "mousemove", "data": {"x": 1881.0546875, "y": 346.55078125}, "app": "Brave Browser", "timestamp": 7.346090316772461}
+{"type": "mousemove", "data": {"x": 1892.28515625, "y": 350.76171875}, "app": "Brave Browser", "timestamp": 7.510471343994141}
+{"type": "mousemove", "data": {"x": 1904.7109375, "y": 358.52734375}, "app": "Brave Browser", "timestamp": 7.675896167755127}
+{"type": "mousemove", "data": {"x": 1913.5, "y": 362.29296875}, "app": "Brave Browser", "timestamp": 7.846740961074829}
+{"type": "mousemove", "data": {"x": 1924.73046875, "y": 366.50390625}, "app": "Brave Browser", "timestamp": 8.04554533958435}
+{"type": "mousemove", "data": {"x": 1935.9609375, "y": 370.71484375}, "app": "Brave Browser", "timestamp": 8.258143424987793}
+{"type": "mousemove", "data": {"x": 1942.60546875, "y": 372.9296875}, "app": "Brave Browser", "timestamp": 8.437198162078857}
+{"type": "mousemove", "data": {"x": 1951.39453125, "y": 376.6953125}, "app": "Brave Browser", "timestamp": 8.69206714630127}
+{"type": "mousemove", "data": {"x": 1958.0390625, "y": 378.91015625}, "app": "Brave Browser", "timestamp": 8.88627815246582}
+{"type": "mousemove", "data": {"x": 1962.84375, "y": 380.83203125}, "app": "Brave Browser", "timestamp": 9.125360250473022}
+{"type": "mousemove", "data": {"x": 1964.8515625, "y": 381.5}, "app": "Brave Browser", "timestamp": 9.326492309570312}
+{"type": "mousemove", "data": {"x": 1965.90234375, "y": 381.5}, "app": "Brave Browser", "timestamp": 9.536946296691895}
+{"type": "mousemove", "data": {"x": 1966.28125, "y": 381.5}, "app": "Brave Browser", "timestamp": 9.714696168899536}
+{"type": "mouseclick", "data": {"x": 1966.28125, "y": 381.5, "button": "Button.left", "pressed": true, "screenshot": "session_data/screenshots/click_9715.png"}, "app": "Brave Browser", "timestamp": 10.202495336532593}
+{"type": "keypress", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 11.372373104095459}
+{"type": "keypress", "data": {"key": "E"}, "app": "Brave Browser", "timestamp": 12.51090407371521}
+{"type": "keyrelease", "data": {"key": "E"}, "app": "Brave Browser", "timestamp": 12.681554317474365}
+{"type": "keyrelease", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 12.841423273086548}
+{"type": "keypress", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 13.019330024719238}
+{"type": "keyrelease", "data": {"key": "l"}, "app": "Brave Browser", "timestamp": 13.188302040100098}
+{"type": "keypress", "data": {"key": "o"}, "app": "Brave Browser", "timestamp": 13.4132661819458}
+{"type": "keyrelease", "data": {"key": "o"}, "app": "Brave Browser", "timestamp": 13.583704233169556}
+{"type": "keypress", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 13.761087417602539}
+{"type": "keyrelease", "data": {"key": "n"}, "app": "Brave Browser", "timestamp": 13.933497190475464}
+{"type": "keypress", "data": {"key": "Key.space"}, "app": "Brave Browser", "timestamp": 14.093855381011963}
+{"type": "keyrelease", "data": {"key": "Key.space"}, "app": "Brave Browser", "timestamp": 14.265165090560913}
+{"type": "keypress", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 14.439386129379272}
+{"type": "keypress", "data": {"key": "M"}, "app": "Brave Browser", "timestamp": 14.603825330734253}
+{"type": "keyrelease", "data": {"key": "Key.shift"}, "app": "Brave Browser", "timestamp": 14.767418146133423}
+{"type": "keyrelease", "data": {"key": "m"}, "app": "Brave Browser", "timestamp": 14.933142185211182}
+{"type": "keypress", "data": {"key": "u"}, "app": "Brave Browser", "timestamp": 15.106638193130493}
+{"type": "keyrelease", "data": {"key": "u"}, "app": "Brave Browser", "timestamp": 15.298628091812134}
+{"type": "keypress", "data": {"key": "c"}, "app": "Brave Browser", "timestamp": 15.472166299819946}
+{"type": "keyrelease", "data": {"key": "c"}, "app": "Brave Browser", "timestamp": 15.654461145401001}
+{"type": "keypress", "data": {"key": "k"}, "app": "Brave Browser", "timestamp": 15.835450172424316}
+{"type": "keyrelease", "data": {"key": "k"}, "app": "Brave Browser", "timestamp": 16.019708156585693}
+{"type": "mousemove", "data": {"x": 883.59375, "y": 124.21484375}, "app": "Brave Browser", "timestamp": 16.080878257751465}
+{"type": "keypress", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 16.176780223846436}
+{"type": "mousemove", "data": {"x": 881.58203125, "y": 122.87109375}, "app": "Brave Browser", "timestamp": 16.238612413406372}
+{"type": "keyrelease", "data": {"key": null}, "app": "Brave Browser", "timestamp": 16.31468415260315}
+{"type": "mousemove", "data": {"x": 866.24609375, "y": 112.64453125}, "app": "Brave Browser", "timestamp": 16.385317087173462}
+{"type": "keyrelease", "data": {"key": "Key.enter"}, "app": "Brave Browser", "timestamp": 16.46863317489624}
+{"type": "mousemove", "data": {"x": 845.83984375, "y": 105.22265625}, "app": "Brave Browser", "timestamp": 16.539753198623657}
+{"type": "mousemove", "data": {"x": 837.046875, "y": 101.453125}, "app": "Brave Browser", "timestamp": 16.70896005630493}
+{"type": "mousemove", "data": {"x": 833.78515625, "y": 101.453125}, "app": "Brave Browser", "timestamp": 16.872194051742554}
+{"type": "mousemove", "data": {"x": 831.7734375, "y": 101.453125}, "app": "Brave Browser", "timestamp": 17.0858952999115}
+{"type": "mousemove", "data": {"x": 831.390625, "y": 101.453125}, "app": "Brave Browser", "timestamp": 17.258482217788696}
+{"type": "mousemove", "data": {"x": 829.37890625, "y": 102.12109375}, "app": "Brave Browser", "timestamp": 17.417413234710693}
+{"type": "mousemove", "data": {"x": 828.99609375, "y": 102.5}, "app": "Brave Browser", "timestamp": 17.578824281692505}
+{"type": "mousemove", "data": {"x": 825.1484375, "y": 105.3828125}, "app": "Brave Browser", "timestamp": 17.746169090270996}
+{"type": "mousemove", "data": {"x": 816.72265625, "y": 113.8046875}, "app": "Brave Browser", "timestamp": 17.902989149093628}
+{"type": "mousemove", "data": {"x": 810.44140625, "y": 120.08203125}, "app": "Brave Browser", "timestamp": 18.057144165039062}
+{"type": "mousemove", "data": {"x": 805.41796875, "y": 127.61328125}, "app": "Brave Browser", "timestamp": 18.224860191345215}
+{"type": "mousemove", "data": {"x": 799.80078125, "y": 137.44140625}, "app": "Brave Browser", "timestamp": 18.388529300689697}
+{"type": "mousemove", "data": {"x": 786.83984375, "y": 163.359375}, "app": "Brave Browser", "timestamp": 18.55026936531067}
+{"type": "mousemove", "data": {"x": 778.31640625, "y": 178.69140625}, "app": "Brave Browser", "timestamp": 18.713804006576538}
+{"type": "mousemove", "data": {"x": 772.69921875, "y": 188.51953125}, "app": "Brave Browser", "timestamp": 18.87423014640808}
+{"type": "mousemove", "data": {"x": 768.8515625, "y": 192.36328125}, "app": "Brave Browser", "timestamp": 19.03650403022766}
+{"type": "mousemove", "data": {"x": 760.42578125, "y": 200.78515625}, "app": "Brave Browser", "timestamp": 19.212239265441895}
+{"type": "mousemove", "data": {"x": 756.578125, "y": 204.62890625}, "app": "Brave Browser", "timestamp": 19.374338150024414}
+{"type": "mousemove", "data": {"x": 754.56640625, "y": 205.96875}, "app": "Brave Browser", "timestamp": 19.541678190231323}
+{"type": "mousemove", "data": {"x": 746.140625, "y": 214.390625}, "app": "Brave Browser", "timestamp": 19.702576160430908}
+{"type": "mousemove", "data": {"x": 739.859375, "y": 220.66796875}, "app": "Brave Browser", "timestamp": 19.861140251159668}
+{"type": "mousemove", "data": {"x": 736.01171875, "y": 224.51171875}, "app": "Brave Browser", "timestamp": 20.02967119216919}
+{"type": "mousemove", "data": {"x": 732.1640625, "y": 228.35546875}, "app": "Brave Browser", "timestamp": 20.196250200271606}
+{"type": "mousemove", "data": {"x": 727.73046875, "y": 233.89453125}, "app": "Brave Browser", "timestamp": 20.367191076278687}
+{"type": "mousemove", "data": {"x": 723.8828125, "y": 237.73828125}, "app": "Brave Browser", "timestamp": 20.511590242385864}
+{"type": "mousemove", "data": {"x": 716.11328125, "y": 250.1640625}, "app": "Brave Browser", "timestamp": 20.66972517967224}
+{"type": "mousemove", "data": {"x": 712.265625, "y": 254.0078125}, "app": "Brave Browser", "timestamp": 20.837329149246216}
+{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 20.890271425247192}
+{"type": "mousemove", "data": {"x": 711.59375, "y": 256.015625}, "app": "Brave Browser", "timestamp": 21.102952241897583}
+{"type": "keypress", "data": {"key": "w"}, "app": "Brave Browser", "timestamp": 21.1339111328125}
+{"type": "mousemove", "data": {"x": 712.64453125, "y": 256.015625}, "app": "Brave Browser", "timestamp": 21.341926336288452}
+{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 21.370941162109375}
+{"type": "mousemove", "data": {"x": 713.6953125, "y": 255.48828125}, "app": "Brave Browser", "timestamp": 21.493587255477905}
+{"type": "keyrelease", "data": {"key": "w"}, "app": "Brave Browser", "timestamp": 21.51679825782776}
+{"type": "mousemove", "data": {"x": 718.5, "y": 253.5625}, "app": "Brave Browser", "timestamp": 21.62667417526245}
+{"type": "keypress", "data": {"key": "Key.cmd"}, "app": "Brave Browser", "timestamp": 21.655245065689087}
+{"type": "mousemove", "data": {"x": 718.5, "y": 253.1796875}, "app": "Brave Browser", "timestamp": 21.75246000289917}
+{"type": "keypress", "data": {"key": "Key.tab"}, "app": "Brave Browser", "timestamp": 21.789286136627197}
+{"type": "mousemove", "data": {"x": 718.87890625, "y": 252.796875}, "app": "Brave Browser", "timestamp": 21.87950325012207}
+{"type": "keyrelease", "data": {"key": "Key.tab"}, "app": "Brave Browser", "timestamp": 21.919581174850464}
+{"type": "mousemove", "data": {"x": 718.87890625, "y": 252.4140625}, "app": "Brave Browser", "timestamp": 22.01705527305603}
+{"type": "mousemove", "data": {"x": 719.9296875, "y": 251.359375}, "app": "Brave Browser", "timestamp": 22.175254106521606}
+{"type": "mousemove", "data": {"x": 720.98046875, "y": 250.83203125}, "app": "Brave Browser", "timestamp": 22.341853141784668}
+{"type": "mousemove", "data": {"x": 721.359375, "y": 250.83203125}, "app": "Brave Browser", "timestamp": 22.519184112548828}
+{"type": "mousemove", "data": {"x": 721.73828125, "y": 250.83203125}, "app": "Brave Browser", "timestamp": 22.698647022247314}
+{"type": "mousemove", "data": {"x": 722.1171875, "y": 250.83203125}, "app": "Brave Browser", "timestamp": 22.895212173461914}
+{"type": "mousemove", "data": {"x": 722.49609375, "y": 250.83203125}, "app": "Brave Browser", "timestamp": 23.03093910217285}
+{"type": "mousemove", "data": {"x": 722.875, "y": 250.83203125}, "app": "Brave Browser", "timestamp": 23.198252201080322}
+{"type": "mousemove", "data": {"x": 723.92578125, "y": 250.3046875}, "app": "Electron", "timestamp": 23.401661157608032}
+{"type": "keyrelease", "data": {"key": "Key.cmd"}, "app": "Electron", "timestamp": 23.424633264541626}
+{"type": "mousemove", "data": {"x": 724.9765625, "y": 250.3046875}, "app": "Electron", "timestamp": 23.552058219909668}
+{"type": "mousemove", "data": {"x": 725.35546875, "y": 250.3046875}, "app": "Electron", "timestamp": 23.750147104263306}
+{"type": "keyrelease", "data": {"key": null}, "app": "Electron", "timestamp": 23.77751326560974}
+{"type": "mousemove", "data": {"x": 730.16015625, "y": 250.3046875}, "app": "Electron", "timestamp": 23.94803023338318}
+{"type": "mousemove", "data": {"x": 731.2109375, "y": 250.3046875}, "app": "Electron", "timestamp": 24.10904026031494}
+{"type": "mousemove", "data": {"x": 737.85546875, "y": 250.3046875}, "app": "Electron", "timestamp": 24.2539541721344}
+{"type": "mousemove", "data": {"x": 746.64453125, "y": 250.3046875}, "app": "Electron", "timestamp": 24.407992124557495}
+{"type": "mousemove", "data": {"x": 753.2890625, "y": 250.3046875}, "app": "Electron", "timestamp": 24.578821182250977}
+{"type": "mousemove", "data": {"x": 756.546875, "y": 250.3046875}, "app": "Electron", "timestamp": 24.752565145492554}
+{"type": "mousemove", "data": {"x": 773.5859375, "y": 250.3046875}, "app": "Electron", "timestamp": 24.916481018066406}
+{"type": "keypress", "data": {"key": "Key.esc"}, "app": "Electron", "timestamp": 24.987364053726196}
+{"type": "mousemove", "data": {"x": 775.59375, "y": 250.3046875}, "app": "Electron", "timestamp": 25.06411910057068}
