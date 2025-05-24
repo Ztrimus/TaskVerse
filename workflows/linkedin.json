@@ -1,0 +1,10 @@
+[
+  { "action": "navigate", "url": "https://www.linkedin.com" },
+  { "action": "waitForUser", "description": "Wait for user to log in manually on LinkedIn, then press ENTER to continue" },
+  { "action": "click", "description": "Click the 'Start a post' button on LinkedIn homepage" },
+  { "action": "type", "description": "Add text for the LinkedIn post: 'Excited to share my latest project on AI automation! 🚀" },
+  { "action": "click", "description": "Click the 'Add a Photo' icon" },
+  { "action": "upload", "description": "Upload an image for the post", "filePath": "./images/ai_project.png" },
+  { "action": "click", "description": "Click the 'Next' button" },
+  { "action": "click", "description": "Click the 'Post' button to publish the post" }
+]

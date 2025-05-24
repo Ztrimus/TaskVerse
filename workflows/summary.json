@@ -1,0 +1,14 @@
+[
+  { "action": "navigate", "url": "https://www.yahoo.com" },
+  { "action": "type", "description": "Search for LinkedIn" },
+  { "action": "press", "description": "Submit the search", "key": "Enter" },
+  { "action": "click", "description": "Click the best link or first relevant result" },
+
+  { "action": "click", "description": "Click the 'Start a post' button on LinkedIn homepage" },
+  { "action": "type", "description": "Add text for the LinkedIn post: 'Excited to share my latest project on AI automation! 🚀'" },
+  { "action": "click", "description": "Click the 'Add an Image' button to add an image" },
+
+  { "action": "upload", "description": "Upload an image for the post", "filePath": "./images/ai_project.png" },
+  { "action": "click", "description": "Click the 'Next' button to publish the post" },
+  { "action": "click", "description": "Click the 'Post' button to publish the post" }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "Google Search Task",
+  "description": "Search for 'Task automation tools' on Google and click the first result.",
+  "steps": [
+    {
+      "action": "navigate",
+      "url": "https://www.google.com"
+    },
+    {
+      "action": "type",
+      "selector": "input[title='Search']",
+      "value": "Facebook"
+    },
+    {
+      "action": "press",
+      "selector": "input[title='Search']",
+      "key": "Enter"
+    },
+    {
+      "action": "click",
+      "selector": "h3"
+    }
+  ]
+}
