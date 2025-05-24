@@ -1,0 +1,74 @@
+{
+  "user_id": "manas_001",
+  "session_id": "session_xyz_23",
+  "events": [
+    {
+      "event_type": "page_navigation",
+      "timestamp": "2025-05-23T17:10:00",
+      "previous_page": "dashboard",
+      "current_page": "compose_email"
+    },
+    {
+      "event_type": "keyboard_input",
+      "timestamp": "2025-05-23T17:11:00",
+      "input_field": "recipient_email",
+      "value": ["danimanas26@gmail.com"]
+    },
+    {
+      "event_type": "keyboard_input",
+      "timestamp": "2025-05-23T17:11:30",
+      "input_field": "email_subject",
+      "value": "Dinner Invitation"
+    },
+    {
+      "event_type": "text_type",
+      "timestamp": "2025-05-23T17:12:00",
+      "email_body": "Hey Manas let's catch up over dinner! I'll see you at 7 PM at Olive Bistro. Let me know if that works!"
+    },
+    {
+      "event_type": "file_upload",
+      "timestamp": "2025-05-23T17:12:30",
+      "file_name": "menu.pdf",
+      "file_type": "application/pdf"
+    },
+    {
+      "event_type": "button_click",
+      "timestamp": "2025-05-23T17:13:00",
+      "button_id": "send_email"
+    },
+    {
+      "event_type": "page_navigation",
+      "timestamp": "2025-05-23T17:14:00",
+      "previous_page": "compose_email",
+      "current_page": "contacts_list"
+    },
+    {
+      "event_type": "button_click",
+      "timestamp": "2025-05-23T17:14:30",
+      "button_id": "select_contact",
+      "contact_selected": "ameybhil222@gmail.com"
+    },
+    {
+      "event_type": "keyboard_input",
+      "timestamp": "2025-05-23T17:15:00",
+      "input_field": "email_subject",
+      "value": "Meeting Details"
+    },
+    {
+      "event_type": "text_type",
+      "timestamp": "2025-05-23T17:15:30",
+      "email_body": "Hey Amey, our project meeting is set for tomorrow at 10 AM. We'll be discussing automation strategies and workflow tracking tools. See you there!"
+    },
+    {
+      "event_type": "file_upload",
+      "timestamp": "2025-05-23T17:16:00",
+      "file_name": "meeting_agenda.pdf",
+      "file_type": "application/pdf"
+    },
+    {
+      "event_type": "button_click",
+      "timestamp": "2025-05-23T17:16:30",
+      "button_id": "send_email"
+    }
+  ]
+}
