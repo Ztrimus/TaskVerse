@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+**.vite
+flow-state-marketplace/node_modules/
+mcp-server/node_modules/
+runner/node_modules/
 # C extensions
 *.so
 
