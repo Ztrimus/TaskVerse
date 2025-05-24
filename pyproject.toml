@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "taskverse"
+version = "0.1.0"
+description = ""
+authors = ["Saurabh Zinjad <zinjadsaurabh1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+greenlet = "3.2.2"
+numpy = "2.2.6"
+opencv-python = "4.11.0.86"
+pillow = "11.2.1"
+playwright = "1.52.0"
+pyee = "13.0.0"
+pyobjc-core = "11.0"
+pyobjc-framework-applicationservices = "11.0"
+pyobjc-framework-cocoa = "11.0"
+pyobjc-framework-coretext = "11.0"
+pyobjc-framework-quartz = "11.0"
+pyscreeze = "1.0.1"
+rubicon-objc = "0.5.0"
+six = "1.17.0"
+typing-extensions = "4.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
