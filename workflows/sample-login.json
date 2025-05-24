@@ -1,0 +1,28 @@
+{
+  "name": "Sample Login Task",
+  "description": "Navigate to a login page and log in using credentials.",
+  "steps": [
+    {
+      "action": "navigate",
+      "url": "https://example.com/login"
+    },
+    {
+      "action": "click",
+      "selector": "#email"
+    },
+    {
+      "action": "type",
+      "selector": "#email",
+      "value": "user@example.com"
+    },
+    {
+      "action": "type",
+      "selector": "#password",
+      "value": "password123"
+    },
+    {
+      "action": "click",
+      "selector": "button[type='submit']"
+    }
+  ]
+}

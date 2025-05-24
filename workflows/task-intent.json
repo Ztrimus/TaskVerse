@@ -1,0 +1,10 @@
+[
+  { "action": "navigate", "url": "https://www.google.com" },
+  { "action": "type", "description": "Type 'Task automation tools'" },
+  { "action": "press", "description": "Submit the search" },
+  { "action": "click", "description": "Click the first search result" },
+   { "action": "navigate", "url": "https://www.yahoo.com" },
+  { "action": "type", "description": "Type 'Task TAsk TAsk'" },
+  { "action": "press", "description": "Submit the search" },
+  { "action": "click", "description": "Click the first search result" }
+]
