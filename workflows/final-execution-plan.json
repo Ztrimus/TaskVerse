@@ -3,49 +3,49 @@
     "action": "navigate",
     "url": "https://www.linkedin.com",
     "status": "completed",
-    "timestamp": "2025-05-24T06:14:52.137Z"
+    "timestamp": "2025-05-24T18:58:46.000Z"
   },
   {
     "action": "waitForUser",
     "description": "Wait for user to log in manually on LinkedIn, then press ENTER to continue",
     "status": "completed",
-    "timestamp": "2025-05-24T06:15:18.459Z"
+    "timestamp": "2025-05-24T18:59:06.015Z"
   },
   {
     "action": "click",
     "description": "Click the 'Start a post' button on LinkedIn homepage",
     "status": "completed",
-    "timestamp": "2025-05-24T06:15:20.931Z"
+    "timestamp": "2025-05-24T18:59:08.073Z"
   },
   {
     "action": "type",
     "description": "Add text for the LinkedIn post: 'Excited to share my latest project on AI automation! 🚀",
     "status": "completed",
-    "timestamp": "2025-05-24T06:15:23.020Z"
+    "timestamp": "2025-05-24T18:59:10.353Z"
   },
   {
     "action": "click",
     "description": "Click the 'Add a Photo' icon",
     "status": "completed",
-    "timestamp": "2025-05-24T06:15:25.987Z"
+    "timestamp": "2025-05-24T18:59:13.023Z"
   },
   {
     "action": "upload",
     "description": "Upload an image for the post",
-    "filePath": "./images/ai_project.png",
+    "filePath": "../images/ai_project.png",
     "status": "completed",
-    "timestamp": "2025-05-24T06:15:48.430Z"
+    "timestamp": "2025-05-24T18:59:36.558Z"
   },
   {
     "action": "click",
     "description": "Click the 'Next' button",
     "status": "completed",
-    "timestamp": "2025-05-24T06:16:10.860Z"
+    "timestamp": "2025-05-24T18:59:58.516Z"
   },
   {
     "action": "click",
     "description": "Click the 'Post' button to publish the post",
     "status": "completed",
-    "timestamp": "2025-05-24T06:16:34.946Z"
+    "timestamp": "2025-05-24T19:00:20.523Z"
   }
 ]
