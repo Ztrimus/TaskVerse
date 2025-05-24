@@ -3,11 +3,27 @@ import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import axios from "axios";
+import { useState } from "react";
 
 const Marketplace = () => {
+  const [showDialog, setShowDialog] = useState(false);
+  const [currentWorkflowId, setCurrentWorkflowId] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
   const workflows = [
-    {
+	{
       id: 1,
+      title: "Linkedin Post Automater",
+      description: "Automatically Sends a post you want on linkedin",
+      category: "Productivity",
+      price: "Free",
+      rating: 4.8,
+      downloads: "2.3k",
+      tags: ["Email", "Task Management", "Team Collaboration"]
+    },
+    {
+      id: 2,
       title: "Email to Task Automation",
       description: "Automatically create tasks from important emails and assign them to team members",
       category: "Productivity",
@@ -17,7 +33,7 @@ const Marketplace = () => {
       tags: ["Email", "Task Management", "Team Collaboration"]
     },
     {
-      id: 2,
+      id: 3,
       title: "Social Media Scheduler",
       description: "Schedule and post content across multiple social media platforms automatically",
       category: "Marketing",
@@ -27,7 +43,7 @@ const Marketplace = () => {
       tags: ["Social Media", "Content", "Scheduling"]
     },
     {
-      id: 3,
+      id: 4,
       title: "Lead Scoring System",
       description: "Automatically score and route leads based on engagement and demographics",
       category: "Sales",
@@ -37,7 +53,7 @@ const Marketplace = () => {
       tags: ["CRM", "Lead Management", "Sales"]
     },
     {
-      id: 4,
+      id: 5,
       title: "Invoice Processing",
       description: "Extract data from invoices and automatically update accounting systems",
       category: "Finance",
@@ -47,7 +63,7 @@ const Marketplace = () => {
       tags: ["Accounting", "Data Extraction", "Finance"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Customer Support Bot",
       description: "Automated customer support responses with intelligent ticket routing",
       category: "Support",
@@ -57,7 +73,7 @@ const Marketplace = () => {
       tags: ["Support", "Chatbot", "Automation"]
     },
     {
-      id: 6,
+      id: 7,
       title: "Data Backup Workflow",
       description: "Automatically backup and sync important files across cloud storage platforms",
       category: "IT Operations",
@@ -69,6 +85,35 @@ const Marketplace = () => {
   ];
 
   const categories = ["All", "Productivity", "Marketing", "Sales", "Finance", "Support", "IT Operations"];
+	
+  const handlePreview = async (id) => {
+    try {
+      setLoading(true);
+      await axios.get(`http://localhost:4000/trigger-workflow?id=${id}`);
+      setCurrentWorkflowId(id);
+      setShowDialog(true);
+      setLoading(false);
+    } catch (error) {
+      console.error("Error triggering workflow:", error);
+      alert("Failed to trigger workflow. Check the console for details.");
+      setLoading(false);
+    }
+  };
+
+   const handleContinue = async () => {
+    try {
+      setLoading(true);
+      await axios.post(`http://localhost:3001/api/continueWorkflow?id=${currentWorkflowId}`);
+      setMessage("Workflow resumed successfully!");
+      setShowDialog(false);
+      setLoading(false);
+    } catch (error) {
+      console.error("Error resuming workflow:", error);
+      setMessage("Failed to resume workflow. Please try again.");
+      setLoading(false);
+    }
+  };
+
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -139,9 +184,25 @@ const Marketplace = () => {
                     <Button size="sm" className="flex-1 bg-purple-600 hover:bg-purple-700">
                       Install
                     </Button>
-                    <Button variant="outline" size="sm">
-                      Preview
-                    </Button>
+                    <Button
+						variant="outline"
+						size="sm"
+						onClick={() => handlePreview(workflow.id)}
+						disabled={loading}
+						>
+						{loading && currentWorkflowId === workflow.id ? "Loading..." : "Preview"}
+					</Button>
+						{showDialog && (
+						<div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+						<div className="bg-white p-6 rounded-lg shadow-lg">
+							<h2 className="text-xl font-bold mb-4">Log in to LinkedIn</h2>
+							<p>Once you're logged in, click Continue.</p>
+							<div className="mt-4">
+							<Button onClick={handleContinue}>Continue</Button>
+							</div>
+						</div>
+						</div>
+					)}
                   </div>
                 </CardContent>
               </Card>

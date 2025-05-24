@@ -2,15 +2,9 @@ const express = require('express');
 const { chromium } = require('playwright');
 const bodyParser = require('body-parser');
 const { getSelectorFromGPT } = require('../runner/utils/extractSelectorWithGPT');
-const path        = require('path');           // ← NEW
-const { exec }    = require('child_process');  // ← NEW
-const { spawn } = require('child_process');
 
 const app = express();
 const port = 3001;
-
-const cors = require('cors');
-app.use(cors());
 
 app.use(bodyParser.json());
 
@@ -313,44 +307,6 @@ app.post('/analyze', async (req, res) => {
   }
 });
 
-app.post('/api/runWorkflow', (req, res) => {
-  if (req.query.id !== '1')
-    return res.status(400).json({ error: 'unsupported id' });
-
-  const workflowPath = path.resolve(__dirname, '../workflows/linkedin.json');
-  const runnerScript = path.resolve(__dirname, '../runner/gpt-runner');
-  
-  const child = spawn('node', [runnerScript, workflowPath, req.query.id], {
-    stdio: 'inherit',
-    detached: true
-  });
-
-  child.unref(); // This lets the process continue independently
-
-  res.json({ message: 'Workflow started, running in background' });
-});
-
-let workflowState = {};
-// API for the frontend to send the signal
-app.post('/api/continueWorkflow', (req, res) => {
-  const { id } = req.query;
-  if (!id) return res.status(400).json({ error: 'Missing workflow ID' });
-
-  workflowState[id] = true;
-  res.json({ message: `Workflow ${id} resumed` });
-});
-
-// API for the runner to check the signal
-app.get('/api/checkWorkflow', (req, res) => {
-  const { id } = req.query;
-  const signal = workflowState[id] === true;
-  res.json({ continue: signal });
-  if (signal) delete workflowState[id]; // Reset after one-time use
-});
-
-
-
-
 // Start server
 app.listen(port, async () => {
   await initBrowser();
@@ -362,5 +318,4 @@ app.listen(port, async () => {
   console.log(`   POST /analyze       - Analyze page for automation`);
   console.log(`   GET  /dom           - Get page context`);
   console.log(`   GET  /page-info     - Get current page info`);
-  console.log(`   POST  /api/runWorkFlow     - Run a WorkFLow`);
 });

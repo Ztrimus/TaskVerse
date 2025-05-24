@@ -4,7 +4,13 @@ const readline = require("readline");
 const { chromium } = require("playwright");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const { extractTargetWithGPT, getSelectorFromGPT } = require("./utils/extractSelectorWithGPT");
+const logFile = path.resolve(__dirname, "../logs.txt");
 
+function log(message) {
+  const timestamp = new Date().toISOString();
+  const logEntry = `[${timestamp}] ${message}\n`;
+  fs.appendFileSync(logFile, logEntry);
+}
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
 
@@ -14,14 +20,26 @@ const rawSteps = JSON.parse(fs.readFileSync(process.argv[2], "utf-8"));
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+let workflowState = {}; // e.g., { "1": { status: "waiting", resolve: fn } }
 
-async function waitForUser() {
-  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-  return new Promise(resolve => rl.question("🔒 Please log in manually, then press ENTER to continue...\n", () => {
-    rl.close();
-    resolve();
-  }));
+async function waitForUser(workflowId) {
+  log(`🔒 Waiting for user signal via /api/checkWorkflow?id=${workflowId}`);
+
+  while (true) {
+    try {
+      const res = await fetch(`http://localhost:3001/api/checkWorkflow?id=${workflowId}`);
+      const json = await res.json();
+      if (json.continue) {
+        log('✅ User signal received. Continuing...');
+        break;
+      }
+    } catch (err) {
+      log('Error checking workflow state:', err.message);
+    }
+    await new Promise(resolve => setTimeout(resolve, 1000)); // Poll every second
+  }
 }
+
 
 // Get page context for GPT
 async function getPageContext(page) {
@@ -79,7 +97,7 @@ async function getPageContext(page) {
     
     return context;
   } catch (error) {
-    console.error("Error getting page context:", error);
+    log("Error getting page context:", error);
     return { url: page.url(), title: '', elements: [] };
   }
 }
@@ -89,9 +107,10 @@ async function getPageContext(page) {
   const context = await browser.newContext();
   const page = await context.newPage();
   const workingSteps = [];
-
+  const workflowId = process.argv[3];
+//   log(` GOT THE WORK FLOW ID aS ${workflowId}`)
   for (const step of rawSteps) {
-    console.log(`➡️ Running: ${step.action} ${step.description || ""}`);
+    log(`➡️ Running: ${step.action} ${step.description || ""}`);
 
     let attempt = 0;
     let success = false;
@@ -99,7 +118,7 @@ async function getPageContext(page) {
     while (attempt < MAX_RETRIES && !success) {
       try {
         attempt++;
-        console.log(`🔄 Attempt ${attempt} for ${step.action}`);
+        log(`🔄 Attempt ${attempt} for ${step.action}`);
 
         switch (step.action) {
           case "navigate":
@@ -109,7 +128,7 @@ async function getPageContext(page) {
             break;
 
           case "waitForUser":
-            await waitForUser();
+            await waitForUser(workflowId);
             success = true;
             break;
 
@@ -126,7 +145,7 @@ async function getPageContext(page) {
               pageContext
             );
             
-            console.log(`🤖 GPT suggested: ${gptResponse.selector} (${gptResponse.strategy})`);
+            log(`🤖 GPT suggested: ${gptResponse.selector} (${gptResponse.strategy})`);
             
             // Try the GPT-suggested selector
             const element = page.locator(gptResponse.selector).first();
@@ -144,7 +163,7 @@ async function getPageContext(page) {
               "type"
             );
             
-            console.log(`🤖 GPT suggested typing in: ${typeResponse.selector}`);
+            log(`🤖 GPT suggested typing in: ${typeResponse.selector}`);
             
             const typeElement = page.locator(typeResponse.selector).first();
             await typeElement.waitFor({ timeout: 10000 });
@@ -164,7 +183,7 @@ async function getPageContext(page) {
               "upload"
             );
             
-            console.log(`🤖 GPT suggested upload element: ${uploadResponse.selector}`);
+            log(`🤖 GPT suggested upload element: ${uploadResponse.selector}`);
             
             const fileInput = page.locator(uploadResponse.selector).first();
             await fileInput.setInputFiles(step.filePath);
@@ -172,7 +191,7 @@ async function getPageContext(page) {
             break;
 
           default:
-            console.warn(`⚠️ Unknown action: ${step.action}`);
+            log(`⚠️ Unknown action: ${step.action}`);
             success = true;
         }
 
@@ -180,12 +199,12 @@ async function getPageContext(page) {
         await sleep(1000);
 
       } catch (err) {
-        console.error(`❌ Step failed on attempt ${attempt}:`, err.message);
+        log(`❌ Step failed on attempt ${attempt}:`, err.message);
         if (attempt < MAX_RETRIES) {
-          console.log(`🔁 Retrying in ${RETRY_DELAY_MS / 1000} seconds...`);
+          log(`🔁 Retrying in ${RETRY_DELAY_MS / 1000} seconds...`);
           await sleep(RETRY_DELAY_MS);
         } else {
-          console.log(`⏭️ Skipping step after ${MAX_RETRIES} attempts.`);
+          log(`⏭️ Skipping step after ${MAX_RETRIES} attempts.`);
         }
       }
     }
@@ -198,9 +217,9 @@ async function getPageContext(page) {
   }
 
   fs.writeFileSync(
-    "workflows/final-execution-plan.json",
+    "../workflows/final-execution-plan.json",
     JSON.stringify(workingSteps, null, 2)
   );
-  console.log("✅ Final plan saved to workflows/final-execution-plan.json");
+  log("✅ Final plan saved to workflows/final-execution-plan.json");
   // await browser.close(); // Uncomment if you want to close browser automatically
 })();

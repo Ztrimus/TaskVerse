@@ -1,0 +1,32 @@
+[2025-05-24T21:39:02.106Z] 🤖 GPT suggested upload element: input[type='file']
+[2025-05-24T21:39:02.108Z] ❌ Step failed on attempt 2:
+[2025-05-24T21:39:02.108Z] 🔁 Retrying in 2 seconds...
+[2025-05-24T21:39:04.108Z] 🔄 Attempt 3 for upload
+[2025-05-24T21:39:04.110Z] Error getting page context:
+[2025-05-24T21:39:24.742Z] 🤖 GPT suggested upload element: input[type='file']
+[2025-05-24T21:39:24.742Z] ❌ Step failed on attempt 3:
+[2025-05-24T21:39:24.743Z] ⏭️ Skipping step after 3 attempts.
+[2025-05-24T21:39:24.743Z] ➡️ Running: click Click the 'Next' button
+[2025-05-24T21:39:24.743Z] 🔄 Attempt 1 for click
+[2025-05-24T21:39:24.743Z] Error getting page context:
+[2025-05-24T21:39:46.013Z] 🤖 GPT suggested: button[aria-label='Next'] (Using aria-label to identify the 'Next' button is reliable as it directly describes the button's function)
+[2025-05-24T21:39:46.015Z] ❌ Step failed on attempt 1:
+[2025-05-24T21:39:46.015Z] 🔁 Retrying in 2 seconds...
+[2025-05-24T21:39:48.017Z] 🔄 Attempt 2 for click
+[2025-05-24T21:39:48.019Z] Error getting page context:
+[2025-05-24T21:40:09.094Z] 🤖 GPT suggested: button:has-text("Next"), button[aria-label*="Next"] (fallback: next button)
+[2025-05-24T21:40:09.096Z] ❌ Step failed on attempt 2:
+[2025-05-24T21:40:09.096Z] 🔁 Retrying in 2 seconds...
+[2025-05-24T21:40:11.097Z] 🔄 Attempt 3 for click
+[2025-05-24T21:40:11.100Z] Error getting page context:
+[2025-05-24T21:40:32.088Z] 🤖 GPT suggested: button:has-text("Next"), button[aria-label*="Next"] (fallback: next button)
+[2025-05-24T21:48:37.501Z] ➡️ Running: navigate 
+[2025-05-24T21:48:37.503Z] 🔄 Attempt 1 for navigate
+[2025-05-24T21:48:40.297Z] ➡️ Running: waitForUser Wait for user to log in manually on LinkedIn, then press ENTER to continue
+[2025-05-24T21:48:40.298Z] 🔄 Attempt 1 for waitForUser
+[2025-05-24T21:48:40.299Z] 🔒 Waiting for user signal via /api/checkWorkflow?id=1
+[2025-05-24T22:00:18.887Z] ➡️ Running: navigate 
+[2025-05-24T22:00:18.888Z] 🔄 Attempt 1 for navigate
+[2025-05-24T22:00:21.811Z] ➡️ Running: waitForUser Wait for user to log in manually on LinkedIn, then press ENTER to continue
+[2025-05-24T22:00:21.812Z] 🔄 Attempt 1 for waitForUser
+[2025-05-24T22:00:21.812Z] 🔒 Waiting for user signal via /api/checkWorkflow?id=1

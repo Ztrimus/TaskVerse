@@ -25,9 +25,17 @@ const GraphEditor = () => {
           </div>
 
           {/* LinkedIn Demo Section */}
+		  
           <section className="mb-12">
             <LinkedInWorkflowGraph />
           </section>
+		  <section className="mb-12">
+			<iframe
+				src="public/d3-graph.html"
+				title="LinkedIn Activity Graph"
+				className="w-full h-[700px] rounded-lg shadow-xl border border-gray-300"
+			></iframe>
+		  </section>
 
           {/* AI Features Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
