@@ -1,0 +1,32 @@
+<!-- gmail_mock.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mock Gmail</title>
+</head>
+<body>
+  <div id="dashboard" style="display: block;">
+    <button id="go_to_compose">Compose Email</button>
+  </div>
+
+  <div id="compose_email" style="display: none;">
+    <input id="recipient_email" placeholder="Recipient Email" />
+    <input id="email_subject" placeholder="Subject" />
+    <textarea id="email_body" placeholder="Write your email..."></textarea>
+    <input type="file" id="attachment_input" />
+    <button id="send_email_btn">Send</button>
+  </div>
+
+  <div id="contacts_list" style="display: none;">
+    <button id="select_contact" data-email="ameybhil222@gmail.com">Amey Bhil</button>
+  </div>
+
+  <script>
+    document.getElementById("go_to_compose").onclick = () => {
+      document.getElementById("dashboard").style.display = "none";
+      document.getElementById("compose_email").style.display = "block";
+    };
+  </script>
+</body>
+</html>
